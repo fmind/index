@@ -1,0 +1,87 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+i {
+    line-height: 6vh;
+}
+
+h1 {
+    font-size: 3.5vh;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+nav img {
+    width: 15%;
+    display: block;
+    max-width: 150px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+nav img:hover {
+    background: rgba(100, 100, 100, 0.5);
+}
+
+header, footer {
+    height: 5vh;
+    color: white;
+    font-size: 2.5vh;
+    background: black;
+}
+
+header {
+    border-radius: 0px 0px 100% 100% / 0px 0px 200% 200%;
+}
+
+footer {
+    border-radius: 100% 100% 0px 0px / 200% 200% 0px 0px;
+}
+
+section {
+    height: 90vh;
+}
+
+#github {
+    top: 10%;
+    right: 10%;
+}
+
+#medium {
+    left: 10%;
+    bottom: 10%;
+}
+
+#twitter {
+    top: 10%;
+    left: 10%;
+}
+
+#linkedin {
+    right: 10%;
+    bottom: 10%;
+}
+
+#avatar {
+    top: 30%;
+    width: 50%;
+    max-width: 300px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#particles {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    position: fixed;
+}

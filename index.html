@@ -25,8 +25,8 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     <!-- <link rel="stylesheet" href="{{SITEURL}}/styles/{{CSS_FILE}}" /> -->
     <!-- <link rel="icon" type="image/png" href="{{SITEURL}}/images/favicon.png" /> -->
-    <script src="particles.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts/particles.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
 </head>
 <body>
     <header>
@@ -35,14 +35,28 @@
         </h1>
     </header>
     <section>
-    <img id="avatar" src="avatar.jpg" alt="Avatar de Médéric Hurier (fmind)" title="U Can't Touch This"/>
+        <nav>
+            <a href="https://github.com/fmind">
+                <img id="github" src="icons/github.svg" />
+            </a>
+            <a href="https://medium.com/@fmind">
+                <img id="medium" src="icons/medium.svg" />
+            </a>
+            <a href="https://twitter.com/fmindme">
+                <img id="twitter" src="icons/twitter.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/fmindme/">
+                <img id="linkedin" src="icons/linkedin.svg" />
+            </a>
+        </nav>
+        <img id="avatar" src="images/avatar.jpg" alt="Doctor, Hacker, Learner, Teacher, Researcher, Entrepreneur, Father, and Dog Owner" title="Doctor, Hacker, Learner, Teacher, Researcher, Entrepreneur, Father, and Dog Owner"/>
     </section>
     <footer>
-        <i>A scientific mind in a hacker shell.</i>
+        <i>A scientific mind in a hacker shell</i>
     </footer>
     <div id="particles"></div>
     <script>
-        particlesJS.load('particles', 'particles.json', function() {});
+        particlesJS.load('particles', 'assets/particles.json', function() {});
     </script>
 </body>
 </html>

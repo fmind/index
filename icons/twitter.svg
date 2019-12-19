@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="500"
+   id="svg2"
+   version="1.1"
+   width="500"
+   sodipodi:docname="twitter.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata3748">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     id="namedview3746"
+     showgrid="false"
+     inkscape:zoom="0.472"
+     inkscape:cx="-93.220339"
+     inkscape:cy="250"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4" />
+  <g
+     id="layer1"
+     transform="translate(0,-552.36218)">
+    <path
+       style="fill:#07acee;fill-opacity:1;stroke:none"
+       d="M 250 0 C 111.5 0 0 111.5 0 250 C 0 388.5 111.5 500 250 500 C 388.5 500 500 388.5 500 250 C 500 111.5 388.5 0 250 0 z M 309.84961 119.94922 C 310.41263 119.93492 310.98432 119.94922 311.55078 119.94922 C 330.43441 119.94922 347.50264 127.9178 359.47461 140.67578 C 374.43468 137.72663 388.48926 132.25338 401.17578 124.72461 C 396.27139 140.06795 385.86424 152.93088 372.30078 161.05078 C 385.58492 159.47224 398.2359 155.92844 410 150.69922 C 401.20454 163.86646 390.07294 175.43858 377.25 184.67578 C 377.3733 187.49501 377.42578 190.35402 377.42578 193.19922 C 377.42578 279.95864 311.39052 380 190.625 380 C 153.55282 380 119.06272 369.13683 90 350.5 C 95.13825 351.11062 100.38162 351.40039 105.67578 351.40039 C 136.44044 351.40039 164.70641 340.91121 187.17578 323.30078 C 158.45084 322.77463 134.23522 303.78031 125.875 277.69922 C 129.88297 278.47224 133.98927 278.875 138.22461 278.875 C 144.21386 278.875 150.01687 278.06828 155.52539 276.57422 C 125.48829 270.53302 102.84961 244.02863 102.84961 212.22461 C 102.84961 211.9453 102.84461 211.64782 102.84961 211.375 C 111.70355 216.29242 121.84239 219.25533 132.59961 219.59961 C 114.9827 207.82899 103.375 187.74928 103.375 164.97461 C 103.375 152.93119 106.62392 141.64113 112.27539 131.94922 C 144.65752 171.67173 193.03394 197.80952 247.59961 200.55078 C 246.47583 195.73734 245.92578 190.71249 245.92578 185.57422 C 245.92578 149.8806 274.37882 120.84801 309.84961 119.94922 z "
+       transform="translate(0,552.36218)"
+       id="rect2990-1" />
+    <g
+       id="layer1-9"
+       transform="translate(-549.00515,80.294372)" />
+    <g
+       id="layer1-6"
+       transform="translate(-575.71429,39.999999)" />
+    <g
+       id="layer1-93"
+       transform="matrix(0.99928945,0,0,0.99928945,474.7002,-40.81928)" />
+  </g>
+</svg>
