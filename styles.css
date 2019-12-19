@@ -1,0 +1,52 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+i {
+    line-height: 7vh;
+}
+
+h1 {
+    font-size: 3.5vh;
+}
+
+header, footer {
+    height: 5vh;
+    color: white;
+    font-size: 2.5vh;
+    background: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header {
+    border-radius: 0px 0px 100% 100% / 0px 0px 200% 200%;
+}
+
+footer {
+    border-radius: 100% 100% 0px 0px / 200% 200% 0px 0px;
+}
+
+section {
+    height: 90vh;
+}
+
+
+#particles {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    position: fixed;
+}
+
+#avatar {
+    position: fixed;
+    top: 35vh;
+    height: 25vh;
+/*     margin: auto; */
+    border-radius: 50%;
+}
