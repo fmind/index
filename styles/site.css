@@ -26,6 +26,10 @@ nav img:hover {
     background: rgba(100, 100, 100, 0.5);
 }
 
+main {
+    height: 90vh;
+}
+
 header, footer {
     height: 5vh;
     color: white;
@@ -40,10 +44,6 @@ header {
 
 footer {
     border-radius: 100% 100% 0px 0px / 200% 200% 0px 0px;
-}
-
-section {
-    height: 90vh;
 }
 
 #twitter {
