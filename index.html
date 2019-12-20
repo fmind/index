@@ -2,7 +2,7 @@
 <html lang="en" itemscope itemtype="https://schema.org/WebPage">
 <head>
     <meta charset="utf-8" />
-    <title>f(mind)</title>
+    <title>Médéric Hurier (fmind) - Data Scientist</title>
     <!-- <meta name="image" content="{{SITEURL}}/{{IMAGE}}" /> -->
     <!-- <meta name="author" content="{{AUTHOR}}" /> -->
     <!-- <meta name="keywords" content="{{DESC}}" /> -->
@@ -16,17 +16,18 @@
     <!-- <meta name="twitter:image:src" content="{{SITEURL}}/{{IMAGE}}" /> -->
     <!-- <meta name="twitter:description" content="{{DESC}}" /> -->
     <!-- <meta name="og:type" content="website" /> -->
-    <!-- <meta name="og:url" content="{{SITEURL}}" /> -->
-    <!-- <meta name="og:title" content="{{SITENAME}}" /> -->
-    <!-- <meta name="og:image" content="{{SITEURL}}/{{IMAGE}}" /> -->
-    <!-- <meta name="og:locale" content="{{DEFAULT_LANG}}" /> -->
-    <!-- <meta name="og:site_name" content="{{SITENAME}}" /> -->
-    <!-- <meta name="og:description" content="{{DESC}}" /> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <!-- <link rel="stylesheet" href="{{SITEURL}}/styles/{{CSS_FILE}}" /> -->
-    <!-- <link rel="icon" type="image/png" href="{{SITEURL}}/images/favicon.png" /> -->
+    <!-- <meta name="og:url" content="https://fmind.me" /> -->
+    <!-- <meta name="og:title" content="Médéric Hurier (fmind)" /> -->
+    <!-- <meta name="og:image" content="images/avatar.jpg" /> -->
+    <!-- <meta name="og:locale" content="en" /> -->
+    <!-- <meta name="og:description" content="Doctor, Hacker, Learner, Teacher, Researcher, Entrepreneur, Father, and Dog Owner." /> -->
+
+<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="https://medium.com/feed/@fmind"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="icon" href="icons/favicon.png" />
     <script src="scripts/particles.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/site.css">
 </head>
 <body>
     <header>
@@ -34,29 +35,30 @@
             In [*]: F(mind)
         </h1>
     </header>
+    <nav>
+        <a href="https://twitter.com/fmindme" title="Go to my Twitter profile" accesskey="t">
+            <img id="twitter" src="icons/twitter.svg" alt="Go to my Twitter profile" />
+        </a>
+        <a href="https://github.com/fmind" title="Go to my GitHub profile" accesskey="g">
+            <img id="github" src="icons/github.svg" alt="Go to my GitHub profile" />
+        </a>
+        <a href="https://medium.com/@fmind" title="Go to my Medium profile" accesskey="m">
+            <img id="medium" src="icons/medium.svg" alt="Go to my Medium profile" />
+        </a>
+        <a href="https://www.linkedin.com/in/fmindme/" title="Go to my LinkedIn profile" accesskey="l">
+            <img id="linkedin" src="icons/linkedin.svg" alt="Go to my LinkedIn profile" />
+        </a>
+    </nav>
     <section>
-        <nav>
-            <a href="https://github.com/fmind">
-                <img id="github" src="icons/github.svg" />
-            </a>
-            <a href="https://medium.com/@fmind">
-                <img id="medium" src="icons/medium.svg" />
-            </a>
-            <a href="https://twitter.com/fmindme">
-                <img id="twitter" src="icons/twitter.svg" />
-            </a>
-            <a href="https://www.linkedin.com/in/fmindme/">
-                <img id="linkedin" src="icons/linkedin.svg" />
-            </a>
-        </nav>
-        <img id="avatar" src="images/avatar.jpg" alt="Doctor, Hacker, Learner, Teacher, Researcher, Entrepreneur, Father, and Dog Owner" title="Doctor, Hacker, Learner, Teacher, Researcher, Entrepreneur, Father, and Dog Owner"/>
+        <img id="my-avatar" src="images/avatar.jpg" alt="Médéric Hurier (fmind)" title="Médéric Hurier (fmind)" />
     </section>
     <footer>
-        <i>A scientific mind in a hacker shell</i>
+        <i>A scientific mind in a hacker shell.</i>
     </footer>
-    <div id="particles"></div>
-    <script>
-        particlesJS.load('particles', 'assets/particles.json', function() {});
-    </script>
+    <div id="particles">
+        <script>
+            particlesJS.load('particles', 'assets/particles.json');
+        </script>
+    </div>
 </body>
 </html>

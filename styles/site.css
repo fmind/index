@@ -1,29 +1,25 @@
+@import url('fonts/Roboto-Regular.ttf');
+
 * {
     border: 0px;
     margin: 0px;
     padding: 0px;
 }
 
-i {
-    line-height: 6vh;
-}
-
 h1 {
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 
 body {
-    text-align: center;
-    font-family: sans-serif;
+    font-size: 2.5vh;
+    font-family: "Roboto", sans-serif;
 }
 
 nav img {
     width: 15%;
-    display: block;
     max-width: 150px;
-    background: white;
-    position: absolute;
     border-radius: 50%;
+    position: absolute;
 }
 
 nav img:hover {
@@ -33,8 +29,9 @@ nav img:hover {
 header, footer {
     height: 5vh;
     color: white;
-    font-size: 2.5vh;
+    line-height: 5vh;
     background: black;
+    text-align: center;
 }
 
 header {
@@ -49,6 +46,11 @@ section {
     height: 90vh;
 }
 
+#twitter {
+    top: 10%;
+    left: 10%;
+}
+
 #github {
     top: 10%;
     right: 10%;
@@ -59,22 +61,9 @@ section {
     bottom: 10%;
 }
 
-#twitter {
-    top: 10%;
-    left: 10%;
-}
-
 #linkedin {
     right: 10%;
     bottom: 10%;
-}
-
-#avatar {
-    top: 30%;
-    width: 50%;
-    max-width: 300px;
-    position: absolute;
-    border-radius: 50%;
 }
 
 #particles {
@@ -84,4 +73,14 @@ section {
     height: 100%;
     z-index: -100;
     position: fixed;
+}
+
+#my-avatar {
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    max-width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
